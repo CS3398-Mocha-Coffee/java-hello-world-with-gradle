@@ -13,25 +13,25 @@ import org.junit.Test;
 public class TestGreeter {
 
    private Greeter g;
-	
+
    @Before
-   public void setUp() throws Exception 
+   public void setUp() throws Exception
    {
       g = new Greeter();
    }
 
    @Test
-   public void testGreeterEmpty() 
+   public void testGreeterEmpty()
    {
       assertEquals(g.getName(),"");
       assertEquals(g.sayHello(),"Hello!");
    }
-	
+
    @Test
-   public void testGreeter() 
+   public void testGreeter()
    {
       g.setName("World War");
       assertEquals(g.getName(),"World War");
-      assertEquals(g.sayHello(),"Hello World War! *FORCE FAIL*");
+      assertEquals(g.sayHello(),"Hello World War III! *FORCE FAIL*");
    }
 }
