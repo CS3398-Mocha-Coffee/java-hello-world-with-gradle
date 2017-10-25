@@ -23,7 +23,7 @@ public class TestGreeter {
    public void testGreeterEmpty()
    {
       assertEquals(g.getName(),"");
-      assertEquals(g.sayHello(),"Hello hell...o?");
+      assertEquals(g.sayHello(),"Hello!");
    }
 
    @Test
