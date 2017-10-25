@@ -15,16 +15,14 @@ public class TestGreeter {
    private Greeter g;
 
    @Before
-   public void setUp() throws Exception
-   {
-      g = new Greeter();
+   public void setUp() throws Exclo!     g = new Greeter();
    }
 
    @Test
    public void testGreeterEmpty()
    {
       assertEquals(g.getName(),"");
-      assertEquals(g.sayHello(),"Hello World!");
+      assertEquals(g.sayHello(),"Hello!");
    }
 
    @Test
