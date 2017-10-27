@@ -42,4 +42,13 @@ public class TestGreeter {
       assertEquals(g.getName(),"Deus ex machina");
       assertEquals(g.sayHello(),"Hello Deus ex machina!");
    }
+
+   // Assignment 13 - Part 5a
+   @Test
+   public void newtest_BF_GreeterFail()
+   {
+      g.setName("Mars");
+      assertEquals(g.getName(),"(not) Mars");
+      assertEquals(g.sayHello(),"Hello (not) Mars!");
+   }
 }
