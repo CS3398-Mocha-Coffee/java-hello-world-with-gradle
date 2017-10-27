@@ -29,8 +29,17 @@ public class TestGreeter {
    @Test
    public void testGreeter()
    {
-      g.setName("World War");
-      assertEquals(g.getName(),"World War");
-      assertEquals(g.sayHello(),"Hello World War!");
+      g.setName("World");
+      assertEquals(g.getName(),"World");
+      assertEquals(g.sayHello(),"Hello World!");
+   }
+
+   // Assignment 13 - Part 2a
+   @Test
+   public void newtest_BF_GreeterPass()
+   {
+      g.setName("Deus ex machina");
+      assertEquals(g.getName(),"Deus ex machina");
+      assertEquals(g.sayHello(),"Hello Deus ex machina!");
    }
 }
