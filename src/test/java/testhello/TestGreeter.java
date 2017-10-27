@@ -33,7 +33,7 @@ public class TestGreeter {
       assertEquals(g.getName(),"World");
       assertEquals(g.sayHello(),"Hello World!");
    }
-
+/*
    // Assignment 13 - Part 2a
    @Test
    public void newtest_BF_GreeterPass()
@@ -51,4 +51,6 @@ public class TestGreeter {
       assertEquals(g.getName(),"(not) Mars");
       assertEquals(g.sayHello(),"Hello (not) Mars!");
    }
+
+*/
 }
