@@ -49,7 +49,7 @@ public class TestGreeter {
    public void newtest_SG_GreeterFail()
    {
       g.setName("Zeus");
-      assertEquals(g.getNaame(),"(not) Zeus");
+      assertEquals(g.getName(),"(not) Zeus");
       assertEquals(g.sayHello(),"Hello (not) Zeus!");
    }
 
