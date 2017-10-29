@@ -34,3 +34,21 @@ public class TestGreeter {
       assertEquals(g.sayHello(),"Hello World War!");
    }
 }
+
+    @Test
+    public void newest_AH_GreeterPass()
+    {
+      g.setName("GO Cowboys!")
+      assertEquals(g.getName(),"GO Cowboys!")
+      assertEquals(g.sayHello(),"Hello COWBOYS fans")
+    }
+
+/*
+    @Test
+    public void newtest_BF_GreeterFail()
+    {
+        g.setName("Cowboys Suck!");
+        assertEquals(g.getName(),"Cowboys don't suck")
+        assertEquals(g.sayHello(),"Hello Cowboys Fans!")
+    }
+/*
