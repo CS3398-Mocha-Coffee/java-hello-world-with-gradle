@@ -26,6 +26,7 @@ public class TestGreeter {
       assertEquals(g.sayHello(),"Hello!");
    }
 
+
    @Test
    public void testGreeter()
    {
@@ -33,4 +34,23 @@ public class TestGreeter {
       assertEquals(g.getName(),"World War");
       assertEquals(g.sayHello(),"Hello World War!");
    }
+/*
+   // Assignment 13 - Part 2a
+   @Test
+   public void newtest_SG_GreeterPass()
+   {
+      g.setName("Rick");
+      assertEquals(g.getName(),"");
+      assertEquals(g.sayHello(),"Hello Rick");
+   }
+   */
+   // Assignment 13 - Part 5a
+   @Test
+   public void newtest_SG_GreeterFail()
+   {
+      g.setName("Zeus");
+      assertEquals(g.getNaame(),"(not) Zeus");
+      assertEquals(g.sayHello(),"Hello (not) Zeus!");
+   }
+
 }
