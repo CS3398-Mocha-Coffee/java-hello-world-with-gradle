@@ -43,14 +43,14 @@ public class TestGreeter {
       assertEquals(g.getName(),"");
       assertEquals(g.sayHello(),"Hello Rick");
    }
-   */
+
    // Assignment 13 - Part 5a
    @Test
    public void newtest_SG_GreeterFail()
    {
       g.setName("Zeus");
-      assertEquals(g.getName(),"(not) Zeus"); // fixed typo
+      assertEquals(g.getName(),"(not) Zeus");
       assertEquals(g.sayHello(),"Hello (not) Zeus!");
    }
-
+*/ 
 }
