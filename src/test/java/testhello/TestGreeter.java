@@ -34,7 +34,7 @@ public class TestGreeter {
       assertEquals(g.sayHello(),"Hello World War!");
    }
 }
-/*
+/*  Assignment 13 part 2a
     @Test
     public void newest_AH_GreeterPass()
     {
@@ -45,7 +45,7 @@ public class TestGreeter {
     }
 */
 
-/*
+/*  Assignment 13 part 5a
     @Test
     public void newtest_AH_GreeterFail()
     {
