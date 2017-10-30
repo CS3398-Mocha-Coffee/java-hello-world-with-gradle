@@ -33,4 +33,14 @@ public class TestGreeter {
       assertEquals(g.getName(),"World War");
       assertEquals(g.sayHello(),"Hello World War!");
    }
+
+   //Assignment13 Part2A
+   @Test
+   public void newtestABGreeterPass()
+   {
+     g.setName("Gilgamesh");
+     assertEquals(g.getName(), "Gilgamesh");
+     assertEquals(g.sayHello(), "Hello Gilgamesh!");
+   }
+
 }
