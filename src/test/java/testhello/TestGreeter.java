@@ -38,11 +38,11 @@ public class TestGreeter {
    @Test
    public void newtestABGreeterPass()
    {
-     g.setName("Gilgamesh");
-     assertEquals(g.getName(), "Gilgamesh");
-     assertEquals(g.sayHello(), "Hello Gilgamesh!");
+	   g.setName("Gilgamesh");
+	   assertSame(g.getName(), "Gilgamesh");
+	   assertEquals(g.sayHello(), "Hello Gilgamesh!");
    }
-
+/*
    //Assignment13 Part5A
    @Test
    public void newtestABGreeterFail()
@@ -51,5 +51,5 @@ public class TestGreeter {
     assertEquals(g.getName(), "Gilgamesh");
     assertEquals(g.sayHello(), "Hello Gilgamesh!");
    }
-
+*/
 }
