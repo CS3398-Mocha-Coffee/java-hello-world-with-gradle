@@ -43,4 +43,13 @@ public class TestGreeter {
      assertEquals(g.sayHello(), "Hello Gilgamesh!");
    }
 
+   //Assignment13 Part5A
+   @Test
+   public void newtestABGreeterFail()
+   {
+    g.setName("Enkidu");
+    assertEquals(g.getName(), "Gilgamesh");
+    assertEquals(g.sayHello(), "Hello Gilgamesh!");
+   }
+
 }
