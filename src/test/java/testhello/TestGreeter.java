@@ -43,7 +43,7 @@ public class TestGreeter {
 	  assertEquals(g.getName(), "Aaron");
 	  assertEquals(g.sayHello(),"Hello Aaron!");
    }
-   /*
+   
    // Assignment 13 - Part 5a
    @Test
    public void newtest_AJM_GreeterFail()
@@ -52,5 +52,5 @@ public class TestGreeter {
 	  assertEquals(g.getName(), "(not) Moontower");
 	  assertEquals(g.sayHello(),"Hello (not) Moontower!");
    }
-   */
+   
 }
