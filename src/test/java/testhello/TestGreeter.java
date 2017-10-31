@@ -37,7 +37,7 @@ public class TestGreeter {
 /*
    //Assignment 13 - part 2a
    @Test
-   public void test_charles_GreeterPass()
+   public void newtest_CL_GreeterPass()
    {
        g.setName("Charlie bit my finger");
        assertEquals(g.getName(), "Charlie bit my finger");
@@ -46,7 +46,7 @@ public class TestGreeter {
 */
    //Assignment 13 - part 5a
    @Test
-   public void test_charles_GreeterFail()
+   public void newtest_CL_GreeterFail()
    {
       g.setName("Lets go to candy mountain");
       assertEquals(g.getName(), "Lets not go to candy mountain");
