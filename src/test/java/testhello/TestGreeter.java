@@ -33,4 +33,24 @@ public class TestGreeter {
       assertEquals(g.getName(),"World War");
       assertEquals(g.sayHello(),"Hello World War!");
    }
+   
+   
+   // Assignment 13 - Part 2a
+   @Test
+   public void newtest_AJM_GreeterPass()
+   {
+	  g.setName("Aaron");
+	  assertEquals(g.getName(), "Aaron");
+	  assertEquals(g.sayHello(),"Hello Aaron!");
+   }
+   /*
+   // Assignment 13 - Part 5a
+   @Test
+   public void newtest_AJM_GreeterFail()
+   {
+	  g.setName("Moontower");
+	  assertEquals(g.getName(), "(not) Moontower");
+	  assertEquals(g.sayHello(),"Hello (not) Moontower!");
+   }
+   */
 }
