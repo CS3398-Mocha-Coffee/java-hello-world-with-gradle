@@ -38,8 +38,8 @@ public class TestGreeter {
     @Test
     public void newest_AH_GreeterPass()
     {
-      g.setName("Cowboys!")
-      assertEquals(g.getName(),"Cowboys!")
+      g.setName("Cowboys")
+      assertEquals(g.getName(),"Cowboys")
       assertEquals(g.sayHello(),"Hello Cowboys!")
       System.out.println("TEST Successful");
     }
