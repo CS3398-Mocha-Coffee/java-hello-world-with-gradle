@@ -34,16 +34,16 @@ public class TestGreeter {
       assertEquals(g.sayHello(),"Hello World War!");
    }
 }
-/*  Assignment 13 part 2a
+//  Assignment 13 part 2a
     @Test
     public void newest_AH_GreeterPass()
     {
-      g.setName("GO Cowboys!")
-      assertEquals(g.getName(),"GO Cowboys!")
-      assertEquals(g.sayHello(),"Hello COWBOYS fans")
+      g.setName("Cowboys!")
+      assertEquals(g.getName(),"Cowboys!")
+      assertEquals(g.sayHello(),"Hello Cowboys!")
       System.out.println("TEST Successful");
     }
-*/
+
 
 /*  Assignment 13 part 5a
     @Test
