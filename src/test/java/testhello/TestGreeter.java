@@ -36,12 +36,11 @@ public class TestGreeter {
 }
 //  Assignment 13 part 2a
     @Test
-    public void newest_AH_GreeterPass()
+    public void newtest_AH_GreeterPass()
     {
       g.setName("Cowboys")
       assertEquals(g.getName(),"Cowboys")
       assertEquals(g.sayHello(),"Hello Cowboys!")
-      System.out.println("TEST Successful");
     }
 
 
